@@ -14,9 +14,15 @@ public class LivingThing {
     }
     public int getAttack(){
         return attack;
+        /**
+         * attackは戻り値です。
+         */
     }
     public void setAttack(int attack){
         this.attack = attack;
+        /**
+         * setAttackとgetAttackは同じ数値です。
+         */
     }
     public void setName(String name){
         this.name = name;
@@ -52,4 +58,5 @@ public class LivingThing {
             System.out.printf("%sは倒れた。\n", name);
         }
     }
+
 }
